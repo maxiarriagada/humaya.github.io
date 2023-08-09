@@ -1,0 +1,47 @@
+
+.imgCentral{
+    background-image: url('/img/central/imagenCentral.png');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: var(--font-base);    
+}
+
+nav{
+    opacity: 50%;
+    font-size: var(--font-size-medium);
+}
+
+
+h1{
+    padding: 5px;
+    font-size: var(--font-size-display);
+}
+p{
+    padding: 5px;
+    font-size: var(--font-size-large);
+}
+.flex-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.dulcesdelalma{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    max-width: 50%;
+  
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+   font-size: var(--font-size-large);
+   opacity: 80%;
+   
+   
+}

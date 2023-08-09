@@ -1,0 +1,30 @@
+/* NORMALIZE CSS*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*limita el ancho para que no se sumen*/
+    /*border: dotted red 0.5px;*/
+}
+
+html {
+    font-size: 62.5%;
+    /*convierte 1em = 10px */
+   /* color: var(--color-background);*/
+    color: black;
+   /* font-family: var(--font-base);*/
+}
+
+a {
+    text-decoration: none;
+   /* font-size: var(--font-size-link);*/
+    color: inherit;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+
