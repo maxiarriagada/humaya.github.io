@@ -27,6 +27,7 @@ h1{
 .flex-container{
     display: flex;
     justify-content: flex-end;
+    flex-direction: row;
     max-height: 100%;
 }
 
@@ -80,20 +81,38 @@ picture{
 picture p{
     font-size: var(--font-size-small);
 }
-/*
-@media only screen and (min-width: 768px) {
+
+@media only screen and (max-width: 768px) {
     .flex-container{
         display: flex;
         justify-content:center;
         max-height: 100%;
-        position: absolute;
+      
     }
-    h1{
-        padding: 5px;
-        font-size: var(--font-size-xlarge);
-    }
-    p{
+    .dulcesdelalma > h1{
         padding: 5px;
         font-size: var(--font-size-medium);
     }
-}*/
+    .dulcesdelalma > p{
+        padding: 5px;
+        font-size: var(--font-size-small);
+    }
+
+    .flex-quality{
+        display: flex;
+        justify-content:center;
+        max-height: 100%;
+        width: 100%;
+       
+    }
+
+    .flex-quality>div > h1{
+        padding: 5px;
+        font-size: var(--font-size-medium);
+    }
+
+    .flex-quality> .flex-icons > p{
+        padding: 5px;
+        font-size: var(--font-size-small);
+    }
+}
