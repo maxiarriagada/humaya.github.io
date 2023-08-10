@@ -12,20 +12,21 @@
 nav{
     opacity: 50%;
     font-size: var(--font-size-medium);
+    
 }
-
 
 h1{
     padding: 5px;
     font-size: var(--font-size-display);
 }
-p{
+.imgCentral p{
     padding: 5px;
     font-size: var(--font-size-large);
 }
 .flex-container{
     display: flex;
     justify-content: flex-end;
+    max-height: 100%;
 }
 .dulcesdelalma{
     display: flex;
@@ -44,4 +45,62 @@ button{
    opacity: 80%;
    
    
+}
+
+.flex-quality{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    background-color:rgb( 48, 46, 46);
+    color:rgb(192,164,124);/*color icons*/
+    height: 300px;
+}
+
+/*.icons{
+   color: rgb(200, 159, 105);
+   width: 100px;
+   height: 100px;
+   
+}
+.icon_organic{
+    background-image: url('../img/icons/organico.png');
+    width: auto;
+   height: auto;
+}
+.icon_not_chemical{
+    background-image: url('../img/icons/noquimico.png');
+   
+}
+.icon_gluten_free{
+    background-image: url('../img/icons/tac.png');
+    
+}*/
+
+picture{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+picture p{
+    font-size: var(--font-size-small);
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-container{
+        display: flex;
+        justify-content:center;
+        max-height: 100%;
+        position: absolute;
+    }
+    h1{
+        padding: 5px;
+        font-size: var(--font-size-xlarge);
+    }
+    p{
+        padding: 5px;
+        font-size: var(--font-size-medium);
+    }
 }
